@@ -26,12 +26,6 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 typedef long double ld;
-random_device rand_dev;
-mt19937_64 rand_gen(rand_dev());
-ll rnd(ll l, ll r) {
-    uniform_int_distribution<ull> rand_dist(l, r);
-    return rand_dist(rand_gen);
-}
 
 void solve() {
     
