@@ -1,23 +1,6 @@
 #pragma comment(linker, "/STACK:1000000000")
 #define _USE_MATH_DEFINES
-#include <algorithm>
-#include <bitset>
-#include <cmath>
-#include <ctime>
-#include <deque>
-#include <fstream>
-#include <iomanip>
-#include <iostream>
-#include <limits>
-#include <map>
-#include <queue>
-#include <random>
-#include <set>
-#include <stack>
-#include <string>
-#include <vector>
-#include <unordered_map>
-#include <unordered_set>
+#include <bits/stdc++.h>
 using namespace std;
 #define ff first
 #define ss second
