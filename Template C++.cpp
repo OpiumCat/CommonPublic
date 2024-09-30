@@ -1,4 +1,3 @@
-#pragma comment(linker, "/STACK:1000000000")
 #define _USE_MATH_DEFINES
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,7 +14,7 @@ void solve() {
 }
 
 int32_t main() {
-    ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+    ios::sync_with_stdio(0), cin.tie(0);
     int t = 1;
     //cin >> t;
     while(t--) solve();
